@@ -15,31 +15,24 @@ class MainButtonWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(
-        top: NumberContants.VERTICAL_40,
-        left: NumberContants.HORIZONTAL_28,
-        right: NumberContants.HORIZONTAL_28,
-      ),
-      child: ElevatedButton(
-        onPressed: onPressed,
-        style: ElevatedButton.styleFrom(
-          backgroundColor: ColorContants.BACKGROUND_BUTTON_COLOR,
-          minimumSize: const Size(double.infinity, NumberContants.HEIGHT_48),
-          elevation: NumberContants.ELEVATION_0,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(
-              NumberContants.BORDER_RADIUS_15,
-            ),
+    return ElevatedButton(
+      onPressed: onPressed,
+      style: ElevatedButton.styleFrom(
+        backgroundColor: ColorContants.BACKGROUND_BUTTON_COLOR,
+        minimumSize: const Size(double.infinity, NumberContants.HEIGHT_48),
+        elevation: NumberContants.ELEVATION_0,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(
+            NumberContants.BORDER_RADIUS_15,
           ),
         ),
-        child: Text(
-          title,
-          style: Theme.of(context)
-              .textTheme
-              .bodyMedium!
-              .copyWith(fontWeight: FontWeight.bold),
-        ),
+      ),
+      child: Text(
+        title,
+        style: Theme.of(context)
+            .textTheme
+            .bodyMedium!
+            .copyWith(fontWeight: FontWeight.bold),
       ),
     );
   }
