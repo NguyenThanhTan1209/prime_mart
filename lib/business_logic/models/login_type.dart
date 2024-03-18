@@ -1,0 +1,4 @@
+enum AuthenType{
+  SignUp,
+  Login,
+}

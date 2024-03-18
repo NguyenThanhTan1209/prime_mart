@@ -11,7 +11,9 @@ dependencies:
     sdk: flutter
   flutter_bloc: ^8.1.4
   smooth_page_indicator: ^1.1.0
-  google_fonts: ^6.1.0
+  google_fonts: 6.1.0
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
 
 dev_dependencies:
   flutter_test:
@@ -35,3 +37,8 @@ flutter:
     - assets/images/illustration_2.png
     - assets/images/illustration_3.png
     - assets/images/illustration_4.png
+    - assets/images/splash_circle_background.png
+    - assets/images/splash_screen_illustration.png
+    - assets/images/prime_mart_logo.png
+    - assets/images/google_logo.png
+    - assets/images/facebook_logo.png

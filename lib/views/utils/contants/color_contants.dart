@@ -6,4 +6,6 @@ class ColorContants {
   static const Color BACKGROUND_BUTTON_COLOR = Color(0xFFFFE202);
 
   static const Color ACTIVE_DOT_COLOR = Color(0xFFFFE202);
+
+  static const Color WHITE_COLOR = Colors.white;
 }
