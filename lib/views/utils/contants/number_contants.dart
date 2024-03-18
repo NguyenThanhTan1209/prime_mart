@@ -28,4 +28,18 @@ class NumberContants {
   static const int MILISECONDS_500 = 500;
 
   static const double VERTICAL_14 = 14.0;
+
+  static const double FONT_SIZE_20 = 20.0;
+
+  static const double LEFT_24 = 24.0;
+
+  static const double RIGHT_24 = 24.0;
+
+  static const double TOP_64 = 64.0;
+
+  static const double SIZE_20 = 20.0;
+
+  static const double VERTICAL_24 = 24.0;
+
+  static const double FONT_SIZE_12 = 12.0;
 }
